@@ -1,0 +1,25 @@
+$primary: #006699;
+$secondary: #33ccff;
+$light: #ffffff;
+
+// .nav-item {
+//    border-bottom: 5px solid transparent;
+// }
+
+// .nav-item:hover {
+//     border-bottom: 5px solid $light;
+// }
+
+.navbar-nav .nav-link {
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  border-bottom: 5px solid transparent;
+}
+
+.nav-link:hover {
+  border-bottom: 5px solid $light;
+}
+  
+
+// import bootstrap
+@import '../node_modules/bootstrap/scss/bootstrap.scss';

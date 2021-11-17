@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kevin Kiely | Web Developer | Web Design</title>
+    <style>
+      section {
+        padding: 60px 0;
+      }
+      .body-bg-image {
+        background: linear-gradient(
+            to left,
+            rgba(51, 204, 255, 0.5),
+            rgba(0, 102, 153, 0.5)
+          ),
+          url("/assets/computers.png");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+      }
+      .border-lg {
+        border: 10px solid white;
+      }
+    </style>
+    <link rel="stylesheet" href="/dist/css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <div class="container-fluid body-bg-image">
+      <div class="row">
+        <!-- navbar -->
+        <nav
+          class="
+            navbar navbar-expand-md navbar-dark
+            bg-primary
+            pt-2
+            pb-2
+            border
+            border-5
+            border-light
+            border-start-0
+            border-top-0
+            border-end-0
+          "
+        >
+          <div class="container">
+            <a href="/index.html" class="navbar-brand">
+              <img
+                src="/assets/logo.png"
+                alt=""
+                width="80"
+                height="80"
+                class="border border-light border-5"
+              />
+            </a>
+            <!-- toggle button for mobile nav -->
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#main-nav"
+              aria-controls="main-nav"
+              aria-expanded="false"
+              aria-label="Toggle Navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- navbar links -->
+            <div
+              class="collapse navbar-collapse justify-content-end align-center"
+              id="main-nav"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a href="about.html" class="nav-link">About Me</a>
+                </li>
+                <li class="nav-item">
+                  <a href="web.html" class="nav-link active">Web Design</a>
+                </li>
+                <li class="nav-item">
+                  <a href="apps.html" class="nav-link">Demo Apps</a>
+                </li>
+                <li class="nav-item d-md-none">
+                  <a href="contact.html" class="nav-link">Contact Me</a>
+                </li>
+                <li class="nav-item ms-2 d-none d-md-inline">
+                  <a href="contact.html" class="btn btn-secondary"
+                    >Contact Me</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <!-- main image and intro text -->
+        <section id="intro">
+          <div class="container-lg">
+            <div class="row justify-content-center align-items-center">
+              <div class="col text-center">
+                <h1>
+                  <div class="display-2 fw-bold text-secondary">Web Design</div>
+                </h1>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="contact" class="bg-light mt-5">
+          <div class="container-lg">
+            <div class="text-center">
+              <p class="h2 pb-5">Some websites I have designed</p>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+              <div class="col">
+                <div class="card shadow">
+                  
+                  <img
+                    src="/assets/web/bgafc.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Ballingarry AFC</h5>
+                    <p class="card-text">
+                      Website I have designed and upgrade sinced 2005 for local
+                      soccer club.
+                    </p>
+                    <ul class="list-group">
+                      <li class="list-group-item">
+                        <i class="bi bi-wrench"></i> Wordpress
+                      </li>
+                      <li class="list-group-item">
+                        <i class="bi bi-link-45deg"></i>
+                        <a href="http://ballingarryafc.com/" target="_blank">http://ballingarryafc.com/</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow">
+                  <img src="/assets/web/rh.jpg" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">Robert Harvey Music</h5>
+                    <p class="card-text">
+                      A wordpress website designed for Laois based musician Robert Harvey.
+                    </p>
+                    <ul class="list-group">
+                      <li class="list-group-item">
+                        <i class="bi bi-wrench"></i> Wordpress
+                      </li>
+                      <li class="list-group-item">
+                        <i class="bi bi-link-45deg"></i>
+                        <a href="http://www.robertharveymusic.com/" target="_blank">http://www.robertharveymusic.com/</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow">
+                  <img src="/assets/web/qf.png" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">Quality Farm Solutions</h5>
+                    <p class="card-text">
+                      A wordpress website designed for a small local business. Launched in 2014.
+                    </p>
+                    <ul class="list-group">
+                      <li class="list-group-item">
+                        <i class="bi bi-wrench"></i> Wordpress
+                      </li>
+                      <li class="list-group-item">
+                        <i class="bi bi-link-45deg"></i>
+                        <a href="http://www.qualityfarmsolutions.com/" target="_blank">http://www.qualityfarmsolutions.com/</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow">
+                  <img src="/assets/web/bg.png" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">Ballinagreena House</h5>
+                    <p class="card-text">
+                      A recently launched wordpress website for a County Limerick Self Catering property.
+                    </p>
+                    <ul class="list-group">
+                      <li class="list-group-item">
+                        <i class="bi bi-wrench"></i> Wordpress
+                      </li>
+                      <li class="list-group-item">
+                        <i class="bi bi-link-45deg"></i>
+                        <a href="https://ballinagreenaselfcatering.ie/" target="_blank">https://ballinagreenaselfcatering.ie/</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow">
+                  <img src="/assets/web/joc.png" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">James O'Connor Fitted Kitchens</h5>
+                    <p class="card-text">
+                      A simple website for a local fitted furniture provider in County Limerick. Created using plain
+                      HTML & CSS, with Gulp to compile the finished CSS from SASS files.
+                    </p>
+                    <ul class="list-group">
+                      <li class="list-group-item">
+                        <i class="bi bi-wrench"></i> HTML, CSS, SASS, Gulp.js
+                      </li>
+                      <li class="list-group-item">
+                        <i class="bi bi-link-45deg"></i>
+                        <a href="http://www.jamesoconnorkitchens.com/" target="_blank">http://www.jamesoconnorkitchens.com/</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="footer" class="p-5 bg-dark text-center text-light">
+          © Kevin Kiely 2021 | Made with <a href="https://getbootstrap.com/">Bootstrap</a> | 
+          Hosted on <a href="https://www.netlify.com/">Netlify</a>
+        </section>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
